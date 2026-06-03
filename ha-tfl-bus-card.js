@@ -190,8 +190,8 @@ class TfLBusCard extends HTMLElement {
         }
         .bus-card {
           font-family: var(--paper-font-body1_-_font-family, system-ui, -apple-system, sans-serif);
-          background: #fff;
-          color: #333333;
+          background: #ffffff;
+          color: var(--primary-text-color, #333333);
           border-radius: var(--ha-card-border-radius, 12px);
           border: var(--ha-card-border, 1px solid var(--divider-color, #e0e0e0));
           box-shadow: var(--ha-card-box-shadow, none);
@@ -199,12 +199,12 @@ class TfLBusCard extends HTMLElement {
         }
         @media (prefers-color-scheme: dark) {
           .bus-card {
-            background: #000000;
-            color: #ffffff;
-            --primary-text-color: #ffffff;
-            --secondary-text-color: #bbbbbb;
-            --secondary-background-color: #222222;
-            --divider-color: #333333;
+            background: var(--ha-card-background, var(--card-background-color, #1c1c1c));
+            color: var(--primary-text-color, #ffffff);
+            --primary-text-color: var(--primary-text-color);
+            --secondary-text-color: var(--secondary-text-color);
+            --secondary-background-color: var(--secondary-background-color);
+            --divider-color: var(--divider-color);
           }
         }
 
