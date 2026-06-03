@@ -6,14 +6,7 @@ Perfect for monitoring your local bus stop from your HA dashboard.
 
 ## Preview
 
-```
-┌──────────────────────────────────┐
-│ 186  Belmont Lane                │  ← red TfL bus header
-├──────────────────────────────────┤
-│ → Brent Cross        4 min 12 min│
-│ → Northwick Park     8 min 22 min│
-└──────────────────────────────────┘
-```
+![TfL Bus Arrivals Card](screenshot.png)
 
 ## Features
 
