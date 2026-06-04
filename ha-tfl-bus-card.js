@@ -22,7 +22,7 @@ class TfLBusCard extends HTMLElement {
     this.config = {
       title: null,
       line: null,
-      max_arrivals: 2,
+      max_arrivals: 3,
       update_interval: 30,
       api_key: null,
       ...config,
